@@ -1,21 +1,14 @@
-const { Schema } = require ('mongoose');
+const { Schema } = require('mongoose');
 
 const PostSchema = new Schema({
-
-    title:{
-
+    title: {
         type: String,
         unique: true,
-
-    } ,
-
-    slug:{
-
+    },
+    slug: {
         type: String,
         unique: true,
-
-    } ,
-    
+    },
     description: String,
     image: String,
     body: String,
@@ -23,8 +16,6 @@ const PostSchema = new Schema({
         type: Boolean,
         default: true,
     }
-
-
 })
 
-module.export = PostSchema;
+module.exports = PostSchema;

@@ -8,7 +8,6 @@
     "express": "^4.17.1",
     "local": "^0.3.3",
     "mongoose": "^5.10.7",
-    "save": "^2.4.0",
     "slug": "^3.3.5"
   },
   "devDependencies": {

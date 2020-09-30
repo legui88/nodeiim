@@ -30,4 +30,3 @@ class PostsSeeder extends Seeder {
 }
 
 module.exports = PostsSeeder;
-

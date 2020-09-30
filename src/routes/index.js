@@ -5,8 +5,8 @@ module.exports = function () {
     const app = Router();
 
     app.get('/', async (req, res) => {
-        const posts = await Post.find( {} );
-        console.log (posts);
+        const posts = await Post.find();
+
         res.render('index', {
             posts
         });
